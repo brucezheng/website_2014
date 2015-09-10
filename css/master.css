@@ -1,0 +1,149 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body {
+	color: #666666;
+	background: #f1f1f1;
+}
+
+.strong{
+	font-weight:bold;
+}
+
+.hidden {
+	display: none;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+}
+
+h1 {
+    font-family: 'Arvo', Georgia, Times, serif;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+    font-family: 'Arvo', Georgia, Times, serif;
+    font-size: 24px;
+    line-height: 36px;
+	color: black;
+}
+
+h3 {
+    font-family: 'Arvo', Georgia, Times, serif;
+    font-size: 18px;
+    line-height: 29px;
+}
+ 
+p {
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+	line-height: 29px;
+}
+
+a {
+    color: #ee9752;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #db6d16;
+    text-decoration: underline;
+}
+
+#content h2 {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 15px;
+}
+
+#content p {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 15px;
+}
+
+#page-container {
+	background: #ffffff;
+	position: relative;
+	width: 900px;
+	margin: auto;
+	min-height: 100%;
+}
+
+#main-nav  {
+	text-align: right;
+	font-family: Tahoma, Arial, Helvetica, Sans-serif;
+	font-size: 14px;
+	padding: 5px 25px;
+	line-height: 23px;
+}
+
+#main-nav a {
+	color: #c9c9c9;
+	text-decoration: none;
+}
+
+#main-nav a:hover {
+	color: #db6d16;
+}
+
+#header {
+	margin: auto;
+	height: 130px;
+	background: #db6d16
+	            url(../images/headers/banner.jpg);
+}
+  
+#header .padding {
+	padding: 10px;
+}
+
+#sidebar-a {
+	float: right;
+	width: 350px;
+}
+
+#sidebar-a .padding {
+	padding: 25px;
+}
+
+#content {
+
+}
+
+#content .padding {
+	padding: 25px;
+	padding-bottom: 100px;
+}
+
+#footer {
+	width: 850px;
+	position: absolute; 
+	bottom: 0;
+	clear: both;
+	font-family: Tahoma, Arial, Helvetica, Sans-serif;
+	font-size: 10px;
+	color: #c9c9c9;
+	border-top: 5px solid #efefef;
+	padding: 13px 25px;
+	line-height: 18px;
+}
+
+#footer a {
+	color: #c9c9c9;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #db6d16;
+}
